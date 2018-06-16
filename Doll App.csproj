@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{A2E5C855-74BB-4C9B-BA3D-5B5E1F955D54}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>Doll App</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Doll_App.Properties\Resources.cs" />
+    <Compile Include="Doll_App.Properties\Settings.cs" />
+    <Compile Include="Doll_App\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doll_App\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Doll_App\Images.1.gif" />
+    <EmbeddedResource Include="Doll_App\Images.1.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.10.gif" />
+    <EmbeddedResource Include="Doll_App\Images.10.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.11.gif" />
+    <EmbeddedResource Include="Doll_App\Images.12.gif" />
+    <EmbeddedResource Include="Doll_App\Images.12.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.13.gif" />
+    <EmbeddedResource Include="Doll_App\Images.13.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.14.gif" />
+    <EmbeddedResource Include="Doll_App\Images.14.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.15.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.16.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.17.png" />
+    <EmbeddedResource Include="Doll_App\Images.18.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.19.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.2.gif" />
+    <EmbeddedResource Include="Doll_App\Images.2.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.20.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.21.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.22.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.23.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.24.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.25.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.26.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.27.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.28.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.29.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.3.gif" />
+    <EmbeddedResource Include="Doll_App\Images.3.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.30.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.31.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.32.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.33.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.34.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.35.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.36.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.37.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.38.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.39.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.4.gif" />
+    <EmbeddedResource Include="Doll_App\Images.4.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.40.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.41.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.42.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.43.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.44.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.5.gif" />
+    <EmbeddedResource Include="Doll_App\Images.5.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.6.gif" />
+    <EmbeddedResource Include="Doll_App\Images.6.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.7.gif" />
+    <EmbeddedResource Include="Doll_App\Images.7.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.8.gif" />
+    <EmbeddedResource Include="Doll_App\Images.8.jpg" />
+    <EmbeddedResource Include="Doll_App\Images.9.gif" />
+    <EmbeddedResource Include="Doll_App\Images.9.jpg" />
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.1.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.10.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.11.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.12.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.13.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.14.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.15.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.16.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.2.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.3.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.4.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.5.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.6.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.7.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.8.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.9.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Moans.0.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Moans.1.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Moans.2.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Moans.3.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Moans.4.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Moans.5.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Moans.6.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Moans.7.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Moans.8.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Moans.9.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Music.bedairoi.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Music.Blue sky.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Music.DarloksAgain.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Music.Epiphany.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Music.Fire from above.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Music.Fizzle.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Music.mors nummer.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Music.Mushroom.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Music.Sector 1B.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Music.Segoia!!!!.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Music.Speak whats on your mind.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Music.wartimesoon.mp3" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice1.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice10.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice11.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice12.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice13.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice14.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice15.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice16.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice17.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice18.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice19.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice2.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice20.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice21.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice22.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice23.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice3.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice4.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice5.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice6.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice7.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice8.wav" />
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice9.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

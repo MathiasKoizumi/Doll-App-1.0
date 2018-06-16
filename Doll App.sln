@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doll App", "Doll App.csproj", "{A2E5C855-74BB-4C9B-BA3D-5B5E1F955D54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2E5C855-74BB-4C9B-BA3D-5B5E1F955D54}.Debug|x64.ActiveCfg = Debug|x64
+		{A2E5C855-74BB-4C9B-BA3D-5B5E1F955D54}.Debug|x64.Build.0 = Debug|x64
+		{A2E5C855-74BB-4C9B-BA3D-5B5E1F955D54}.Release|x64.ActiveCfg = Release|x64
+		{A2E5C855-74BB-4C9B-BA3D-5B5E1F955D54}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41CFD4CB-A7FA-4CFE-B96D-04C8324E94CE}
+	EndGlobalSection
+EndGlobal
