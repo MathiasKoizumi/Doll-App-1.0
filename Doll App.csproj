@@ -10,6 +10,23 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x64' ">
     <PlatformTarget>x64</PlatformTarget>
@@ -25,6 +42,18 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>4413CEEF3250974B3425079C2ABE3330FEBDD093</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Doll App_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System.Windows.Forms">
@@ -45,126 +74,374 @@
     </Compile>
     <Compile Include="Doll_App\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Doll_App\Images.1.gif" />
-    <EmbeddedResource Include="Doll_App\Images.1.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.10.gif" />
-    <EmbeddedResource Include="Doll_App\Images.10.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.11.gif" />
-    <EmbeddedResource Include="Doll_App\Images.12.gif" />
-    <EmbeddedResource Include="Doll_App\Images.12.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.13.gif" />
-    <EmbeddedResource Include="Doll_App\Images.13.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.14.gif" />
-    <EmbeddedResource Include="Doll_App\Images.14.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.15.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.16.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.17.png" />
-    <EmbeddedResource Include="Doll_App\Images.18.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.19.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.2.gif" />
-    <EmbeddedResource Include="Doll_App\Images.2.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.20.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.21.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.22.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.23.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.24.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.25.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.26.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.27.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.28.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.29.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.3.gif" />
-    <EmbeddedResource Include="Doll_App\Images.3.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.30.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.31.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.32.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.33.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.34.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.35.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.36.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.37.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.38.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.39.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.4.gif" />
-    <EmbeddedResource Include="Doll_App\Images.4.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.40.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.41.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.42.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.43.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.44.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.5.gif" />
-    <EmbeddedResource Include="Doll_App\Images.5.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.6.gif" />
-    <EmbeddedResource Include="Doll_App\Images.6.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.7.gif" />
-    <EmbeddedResource Include="Doll_App\Images.7.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.8.gif" />
-    <EmbeddedResource Include="Doll_App\Images.8.jpg" />
-    <EmbeddedResource Include="Doll_App\Images.9.gif" />
-    <EmbeddedResource Include="Doll_App\Images.9.jpg" />
-    <EmbeddedResource Include="Doll_App\Sounds.Acapela.1.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Acapela.10.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Acapela.11.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Acapela.12.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Acapela.13.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Acapela.14.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Acapela.15.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Acapela.16.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Acapela.2.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Acapela.3.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Acapela.4.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Acapela.5.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Acapela.6.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Acapela.7.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Acapela.8.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Acapela.9.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Moans.0.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Moans.1.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Moans.2.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Moans.3.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Moans.4.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Moans.5.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Moans.6.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Moans.7.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Moans.8.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Moans.9.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Music.bedairoi.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Music.Blue sky.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Music.DarloksAgain.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Music.Epiphany.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Music.Fire from above.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Music.Fizzle.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Music.mors nummer.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Music.Mushroom.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Music.Sector 1B.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Music.Segoia!!!!.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Music.Speak whats on your mind.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Music.wartimesoon.mp3" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice1.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice10.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice11.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice12.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice13.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice14.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice15.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice16.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice17.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice18.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice19.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice2.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice20.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice21.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice22.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice23.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice3.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice4.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice5.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice6.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice7.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice8.wav" />
-    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice9.wav" />
+    <EmbeddedResource Include="Doll_App\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.1.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.10.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.10.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.11.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.12.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.12.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.13.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.13.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.14.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.14.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.15.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.16.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.17.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.18.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.19.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.2.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.20.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.21.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.22.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.23.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.24.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.25.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.26.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.27.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.28.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.3.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.30.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.31.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.32.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.33.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.34.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.35.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.36.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.37.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.38.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.39.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.4.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.4.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.40.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.41.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.42.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.43.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.44.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.5.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.6.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.6.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.7.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.7.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.8.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.8.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.9.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Images.9.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.1.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.10.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.11.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.12.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.13.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.14.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.15.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Resource Include="Doll_App\Sounds.Acapela.16.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.2.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.3.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.4.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.5.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.6.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.7.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.8.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Acapela.9.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Moans.0.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Moans.1.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Moans.2.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Moans.3.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Moans.4.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Moans.5.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Moans.6.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Moans.7.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Moans.8.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Moans.9.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Music.bedairoi.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Music.Blue sky.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Music.DarloksAgain.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Music.Epiphany.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Music.Fire from above.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Music.Fizzle.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Music.mors nummer.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Music.Mushroom.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Music.Sector 1B.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Music.Segoia!!!!.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Music.Speak whats on your mind.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Music.wartimesoon.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice1.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice10.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice11.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice12.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice13.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice14.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice15.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice16.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice17.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice18.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice19.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice2.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice20.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice21.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice22.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice23.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice3.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice4.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice5.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice6.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice7.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice8.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doll_App\Sounds.Pond5.Voice9.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="WMPLib">
@@ -176,6 +453,21 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Doll App_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
